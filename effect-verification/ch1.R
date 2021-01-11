@@ -1,4 +1,3 @@
-install.packages("tidyverse")
 library("tidyverse")
 
 email_data <- read_csv("http://www.minethatdata.com/Kevin_Hillstrom_MineThatData_E-MailAnalytics_DataMiningChallenge_2008.03.20.csv")
