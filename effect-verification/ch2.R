@@ -62,6 +62,6 @@ history_coef <- df_results %>%
   pull(estimate)
 
 OVB <- history_coef*treatment_coef[3]
-coef_gap <- treatment_coef[1] = treatment_coef[2]
+coef_gap <- treatment_coef[1] -treatment_coef[2]
 OVB
 coef_gap
